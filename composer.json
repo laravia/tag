@@ -1,0 +1,52 @@
+{
+    "minimum-stability": "dev",
+    "name": "laravia/tag",
+    "description": "laravia package tag for heart",
+    "license": "license",
+    "authors": [
+        {
+            "name": "laravia",
+            "email": "code@laravia.art",
+            "homepage": "https://laravia.art"
+        }
+    ],
+    "homepage": "https://laravia.art",
+    "keywords": [
+        "Laravel",
+        "Laravia",
+        "Tag"
+    ],
+    "require": {
+        "spatie/laravel-tags": "^4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravia\\Tag\\App\\": "./app",
+            "Laravia\\Tag\\Database\\": "./database",
+            "Laravia\\Tag\\Database\\Seeders\\": "./database/seeders"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laravia\\Tag\\App\\": "./app",
+            "Laravia\\Tag\\Database\\": "./database",
+            "Laravia\\Tag\\Database\\Seeders\\": "./database/seeders",
+            "Laravia\\Tag\\Tests\\": "./tests"
+        }
+    },
+    "scripts": {
+        "post-root-package-update": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravia\\Tag\\App\\Providers\\TagServiceProvider"
+            ],
+            "aliases": {
+                "LaraviaTag": "Laravia\\Tag\\App\\Tag"
+            }
+        }
+    }
+}
