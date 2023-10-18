@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravia\Tag\Tests\Features\App\Orchid\Screens;
+namespace Laravia\Tag\Tests\Feature\App\Orchid\Screens;
 
 use Laravia\Heart\App\Classes\TestCase;
 
