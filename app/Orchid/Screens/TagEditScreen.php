@@ -87,7 +87,7 @@ class TagEditScreen extends Screen
 
         Alert::info('You have successfully created a tag.');
 
-        return redirect()->route('laravia.tag');
+        return redirect()->route('laravia.tag.list');
     }
 
     public function remove()
