@@ -2,7 +2,7 @@
 
 $config['tag']['links'] = [
     [
-        'name' => 'Tag',
+        'name' => 'Tags',
         'icon' => 'bs.tag',
         'route' => 'laravia.tag.list',
         'sort' => 10000
